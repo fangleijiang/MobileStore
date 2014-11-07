@@ -1,0 +1,18 @@
+.phone_image{
+	width: 150px;
+	height: 200px;
+ 	border:1px solid #a1a1a1;
+ 	margin-left: 100px;
+ 	margin-top: 20px;
+	float: left;
+}
+
+.phone_parameter{
+	width: 540px;
+	/* height: 300px; */
+/*  	border:1px solid #a1a1a1; */
+ 	margin-left: 20px;
+ 	margin-top: 20px;
+	float: left;
+	
+}

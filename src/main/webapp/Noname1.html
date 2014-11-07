@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+<meta name="keywords" content="站长,网页特效,js特效,js脚本,脚本,广告代码,zzjs,zzjs.net,sky,www.zzjs.net,站长特效 网" />
+<meta name="description" content="www.zzjs.net,站长特效网，站长必备js特效及广告代码。大量高质量js特效，提供高质量广告代码下载,尽在站长特效网" />
+<title>网页特效 检测多选框选择的个数 站长特效网</title>
+</head>
+<body>
+<a href="http://www.zzjs.net/">站长特效网</a>,站长必备的高质量网页特效和广告代码。zzjs.net，站长js特效。<hr>
+<!--欢迎来到站长特效网，我们网站收集大量高质量js特效，提供许多广告代码下载，网址：www.zzjs.net，zzjs@msn.com,用.net打造靓站-->
+<script language="javascript">
+<!--
+function anyCheck(form) {
+var total = 0;
+var max = form.ckbox.length;
+for (var idx = 0; idx < max; idx++) {
+if (eval("document.playlist.ckbox[" + idx + "].checked") == true) {
+    total += 1;
+   }
+}
+alert("您选择了 " + total + " 个选项！");
+}
+//-->
+</script>
+<form method="post" name="playlist">
+1<input type="checkbox" name="ckbox" value="1">
+2<input type="checkbox" name="ckbox" value="2">
+3<input type="checkbox" name="ckbox" value="3">
+4<input type="checkbox" name="ckbox" value="4">
+5<input type="checkbox" name="ckbox" value="5">
+6<input type="checkbox" name="ckbox" value="6">
+7<input type="checkbox" name="ckbox" value="7">
+8<input type="checkbox" name="ckbox" value="8">
+9<input type="checkbox" name="ckbox" value="9">
+<br><input type="button" value="检测选择个数" onClick="anyCheck(this.form)">
+</form>
+</body>
+</html>

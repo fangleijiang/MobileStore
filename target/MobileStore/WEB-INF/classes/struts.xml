@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+<!-- 设置默认编码格式 -->  
+<!--     <constant name="struts.i18n.encoding" value="UTF-8" />   -->
+    <!-- 设置最大上传文件是300M -->  
+    <constant name="struts.multipart.maxSize" value="314572800" />  
+    <!-- 设置默认的临时文件存储位置 -->  
+    <constant name="struts.multipart.saveDir" value="/upload_mobile_images" />  
+    <!-- 设置调试模式 -->  
+
+ <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.devMode" value="true" />
+
+     <package name="ssh" namespace="/" extends="struts-default" >
+      
+       <action name="Mobile_*" class="mobile_action" method="{1}">
+       <result name="addsuccess">adminPage/addMobile.jsp</result>
+       <result name="uploadsucess">adminPage/addMobile.jsp</result>
+       <result name="list_mobile_success">web_index.jsp</result>
+       <result name="FuzzysearchSuc">web_index.jsp</result>
+       <result name="find_mobile_success">mobile_detail.jsp</result>
+        <result name="list_mobile_tocenter_success">ProductCenter.jsp</result>
+       <result name="listNewProduct">NewProduct.jsp</result>
+       </action>
+      
+       
+       <action name="User_*" class="user_action" method="{1}">
+       <result name="userloginSuccess" type="redirectAction">Mobile_ListProductsToindex</result>
+        <result name="adminloginSuccess">adminPage/admin_index.jsp</result>
+       <result name="loginfaile">login.jsp</result>
+       <result name="saveSuccess">register_success.jsp</result>
+       <result name="userlogOutSuccess" type="redirectAction">Mobile_ListProductsToindex</result>
+        <result name="logfaile" type="redirectAction">Mobile_ListProductsToindex</result>
+     	<result name="personalCenter">personalCenter.jsp</result>
+     	<result name="listUserSuccess">adminPage/admin_list_user.jsp</result>
+     	<result name="addCartLogin" type="redirectAction">Mobile_ListProductsToindex</result>
+     <result name="ActivatingRegister">login.jsp</result>
+       </action> 
+       
+     
+    </package> 
+    
+	<package name="json" namespace="/" extends="json-default">
+	<action name="Json_*" class="user_action" method="{1}">
+		<result name="userAllowRegister" type="json"></result>
+		<result name="userNoRegister" type="json"></result>
+		</action>
+		</package>
+		
+		 <package name="admin" namespace="/" extends="struts-default">
+		 	<interceptors>
+				<interceptor name="adminInterceptor" class="com.model.type.MobileStore.interceptor.AdminInterceptor"/>
+				
+				<interceptor name="userInterceptor" class="com.model.type.MobileStore.interceptor.UserInterceptor"/>
+			
+			</interceptors>
+			<global-results>
+					<result name="error">login.jsp</result>
+					<result name="input">user_login.jsp</result>
+		</global-results>  
+			
+			<action name="Mobileadmin_*" class="mobile_action" method="{1}">
+			 <result name="listProducttoBackSuccss">adminPage/admin_list_mobile.jsp</result>
+					<interceptor-ref name="adminInterceptor"></interceptor-ref>
+		 		 	<interceptor-ref name="defaultStack"></interceptor-ref>
+			</action>
+			
+			  <action name="Orderadmin_*" class="order_action" method="{1}">
+			     <result name="listOrderSuccess">adminPage/admin_list_orders.jsp</result>
+					 <interceptor-ref name="adminInterceptor"></interceptor-ref>
+		 			 <interceptor-ref name="defaultStack"></interceptor-ref>
+			  </action>
+			  
+			   <action name="Useradmin_*" class="user_action" method="{1}">
+		 			<result name="listUserSuccess">adminPage/admin_list_user.jsp</result>
+		 			<interceptor-ref name="adminInterceptor"></interceptor-ref>
+		 		 	<interceptor-ref name="defaultStack"></interceptor-ref>
+		 		</action>
+		 		
+		 		<action name="Order_*" class="order_action" method="{1}">
+       				<result name="addtoCartSuccess">cart.jsp</result>
+       				 <result name="addOrderSuccess">orderAddSuccess.jsp</result>
+       				  <result name="checkSuccess" type="redirectAction">Orderadmin_ListOrdertoBackground</result>
+     				<interceptor-ref name="userInterceptor"></interceptor-ref>
+		 			 <interceptor-ref name="defaultStack"></interceptor-ref>
+      			 </action>
+		 </package>
+</struts>    

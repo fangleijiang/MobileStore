@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/model/type/MobileStore/action=UTF-8
+encoding//src/main/java/com/model/type/MobileStore/dao/impl=UTF-8
+encoding//src/main/java/com/model/type/MobileStore/dao/impl/UserDaoImpl.java=UTF-8
+encoding//src/main/webapp/adminPage/addMobile.jsp=UTF-8
+encoding//src/main/webapp/jsp/error/404error.jsp=UTF-8
+encoding//src/main/webapp/web_index.jsp=UTF-8
+separateDerivedEncodings=true

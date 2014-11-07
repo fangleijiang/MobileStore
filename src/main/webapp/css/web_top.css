@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	margin-top:-20px;
+
+	
+}
+
+.row-fluid {
+	margin-left: 10%;
+	width: 80%;
+	margin-top:41px;
+	
+}
+
+.navbar-inner{
+font-size: 9px;
+}
+
+
+.carousel-inner{
+height: 300px;
+margin-top:40px;
+
+background-color: red;
+}
+
+.row-fluid{
+margin-top:60px;
+margin-left: 9%;
+width: 86%;
+}
+.row-fluid .span2{
+
+height: 300px;
+width: 17.3%;
+float: left;
+}
+.row-fluid .span10{
+
+height: 300px;
+margin-left: 0;
+width: 80%;
+float: left;
+}
+
+ .nav2 .navbar-inner{
+ margin-top:3px;
+ margin-left: 10.2%;
+width: 1045px;
+}

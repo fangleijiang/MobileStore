@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+.navbar-inner{
+font-size: 9px;
+}
+
+
+.carousel-inner{
+height: 300px;
+margin-top:40px;
+background-color: red;
+}
+
+.row-fluid{
+margin-top:40px;
+margin-left: 9%;
+width: 86%;
+}
+.top_pic{
+margin-left:10%;
+height: 300px;
+width: 80%;
+background-color: pink;
+background:transparent url(../images/admin_top.png) no-repeat scroll 50% 50%;
+}
+
+ .nav2 .navbar-inner{
+ margin-top:3px;
+ margin-left: 10.1%;
+width: 1037px;
+}

@@ -1,0 +1,407 @@
+2014-04-26 16:08:05  [ main:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  2014-04-26 16:08:05  [ main:142 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@15253d5
+  2014-04-26 16:08:05  [ main:144 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@15253d5
+  2014-04-26 16:08:05  [ main:145 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@15253d5
+  2014-04-26 16:08:05  [ main:149 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1d225a7
+  2014-04-26 16:08:05  [ main:153 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@ef137d
+  2014-04-26 16:08:05  [ main:156 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@e32802
+  2014-04-26 16:08:05  [ main:163 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@182da3d
+  2014-04-26 16:08:05  [ main:164 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@182da3d
+  2014-04-26 16:08:05  [ main:165 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@182da3d
+  2014-04-26 16:08:05  [ main:169 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@497934
+  2014-04-26 16:08:05  [ main:170 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@497934
+  2014-04-26 16:08:05  [ main:171 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@497934
+  2014-04-26 16:08:05  [ main:178 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@cdb06e
+  2014-04-26 16:08:05  [ main:179 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@cdb06e
+  2014-04-26 16:08:05  [ main:180 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@cdb06e
+  2014-04-26 16:08:05  [ main:190 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@6bade9
+  2014-04-26 16:08:05  [ main:192 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@6bade9
+  2014-04-26 16:08:05  [ main:193 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6bade9
+  2014-04-26 16:08:05  [ main:207 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@adb1d4
+  2014-04-26 16:08:05  [ main:208 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@adb1d4
+  2014-04-26 16:08:05  [ main:209 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@adb1d4
+  2014-04-26 16:08:05  [ main:217 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@af993e
+  2014-04-26 16:08:05  [ main:218 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@af993e
+  2014-04-26 16:08:05  [ main:219 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@af993e
+  2014-04-26 16:08:05  [ main:224 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@1f66cff
+  2014-04-26 16:08:05  [ main:225 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@1f66cff
+  2014-04-26 16:08:05  [ main:225 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1f66cff
+  2014-04-26 16:08:05  [ main:232 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@64ea66
+  2014-04-26 16:08:05  [ main:233 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@64ea66
+  2014-04-26 16:08:06  [ main:239 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@14a55f2
+  2014-04-26 16:08:06  [ main:240 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@14a55f2
+  2014-04-26 16:08:06  [ main:245 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@19836ed
+  2014-04-26 16:08:06  [ main:246 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@19836ed
+  2014-04-26 16:08:06  [ main:250 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1afae45
+  2014-04-26 16:08:06  [ main:253 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@d9660d
+  2014-04-26 16:08:06  [ main:257 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@64883c
+  2014-04-26 16:08:06  [ main:258 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@64883c
+  2014-04-26 16:08:06  [ main:280 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@c791b9
+  2014-04-26 16:08:06  [ main:281 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@c791b9
+  2014-04-26 16:08:06  [ main:288 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@1d86fd3
+  2014-04-26 16:08:06  [ main:289 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1d86fd3
+  2014-04-26 16:08:06  [ main:295 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@18b3364
+  2014-04-26 16:08:06  [ main:296 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@18b3364
+  2014-04-26 16:08:06  [ main:298 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@18b3364
+  2014-04-26 16:08:06  [ main:306 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@16dadf9
+  2014-04-26 16:08:06  [ main:311 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@4aa0ce
+  2014-04-26 16:08:06  [ main:311 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4aa0ce
+  2014-04-26 16:08:06  [ main:314 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4aa0ce
+  2014-04-26 16:08:06  [ main:317 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1e3cd51
+  2014-04-26 16:08:06  [ main:321 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@12452e8
+  2014-04-26 16:08:06  [ main:322 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@12452e8
+  2014-04-26 16:08:06  [ main:328 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@145f0e3
+  2014-04-26 16:08:06  [ main:329 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@145f0e3
+  2014-04-26 16:08:06  [ main:333 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@170bea5
+  2014-04-26 16:08:06  [ main:334 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@170bea5
+  2014-04-26 16:08:06  [ main:337 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@1de17f4
+  2014-04-26 16:08:06  [ main:338 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1de17f4
+  2014-04-26 16:08:06  [ main:345 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1eb2c1b
+  2014-04-26 16:08:06  [ main:346 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1eb2c1b
+  2014-04-26 16:08:06  [ main:348 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4f9fdc
+  2014-04-26 16:08:06  [ main:352 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@e95a56
+  2014-04-26 16:08:06  [ main:356 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@142bece
+  2014-04-26 16:08:06  [ main:357 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@142bece
+  2014-04-26 16:08:06  [ main:358 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@142bece
+  2014-04-26 16:08:06  [ main:362 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1fc6e42
+  2014-04-26 16:08:06  [ main:363 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1fc6e42
+  2014-04-26 16:08:06  [ main:364 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1fc6e42
+  2014-04-26 16:08:06  [ main:368 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@f0c85e
+  2014-04-26 16:08:06  [ main:372 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@175078b
+  2014-04-26 16:08:06  [ main:373 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@175078b
+  2014-04-26 16:08:06  [ main:374 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@175078b
+  2014-04-26 16:08:06  [ main:378 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@19e15c
+  2014-04-26 16:08:06  [ main:379 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@19e15c
+  2014-04-26 16:08:06  [ main:380 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@19e15c
+  2014-04-26 16:08:06  [ main:383 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@170888e
+  2014-04-26 16:08:06  [ main:388 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@1f06dc3
+  2014-04-26 16:08:06  [ main:412 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@1d6f122
+  2014-04-26 16:08:06  [ main:413 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1d6f122
+  2014-04-26 16:08:06  [ main:415 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1aed5f9
+  2014-04-26 16:08:06  [ main:431 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@5dcec6
+  2014-04-26 16:08:06  [ main:432 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5dcec6
+  2014-04-26 16:08:06  [ main:446 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@18235ed
+  2014-04-26 16:08:06  [ main:447 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@18235ed
+  2014-04-26 16:08:06  [ main:449 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5fcf29
+  2014-04-26 16:08:06  [ main:451 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@ec6b00
+  2014-04-26 16:08:06  [ main:455 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@11978b
+  2014-04-26 16:08:06  [ main:465 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@ff2413
+  2014-04-26 16:08:06  [ main:465 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@ff2413
+  2014-04-26 16:08:06  [ main:468 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@1d95492
+  2014-04-26 16:08:06  [ main:469 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@13f7281
+  2014-04-26 16:08:06  [ main:470 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@76ab2f
+  2014-04-26 16:08:06  [ main:470 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@e0cc23
+  2014-04-26 16:08:06  [ main:471 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@7a1576
+  2014-04-26 16:08:06  [ main:472 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@1171b26
+  2014-04-26 16:08:06  [ main:472 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1f78040
+  2014-04-26 16:08:06  [ main:473 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@50988
+  2014-04-26 16:08:06  [ main:543 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+  2014-04-26 16:08:06  [ main:565 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.1.Final}
+  2014-04-26 16:08:06  [ main:573 ] - [ INFO ]  HHH000206: hibernate.properties not found
+  2014-04-26 16:08:06  [ main:579 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+  2014-04-26 16:08:06  [ main:624 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+  2014-04-26 16:08:06  [ main:627 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+  2014-04-26 16:08:06  [ main:631 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+  2014-04-26 16:08:06  [ main:632 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+  2014-04-26 16:08:06  [ main:636 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+  2014-04-26 16:08:06  [ main:638 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+  2014-04-26 16:08:06  [ main:642 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+  2014-04-26 16:08:06  [ main:644 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+  2014-04-26 16:08:06  [ main:647 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+  2014-04-26 16:08:06  [ main:649 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+  2014-04-26 16:08:06  [ main:652 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+  2014-04-26 16:08:06  [ main:654 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+  2014-04-26 16:08:06  [ main:656 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+  2014-04-26 16:08:06  [ main:661 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+  2014-04-26 16:08:06  [ main:665 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+  2014-04-26 16:08:06  [ main:673 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+  2014-04-26 16:08:06  [ main:673 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+  2014-04-26 16:08:06  [ main:984 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+  2014-04-26 16:08:06  [ main:985 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+  2014-04-26 16:08:06  [ main:986 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+  2014-04-26 16:08:06  [ main:987 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+  2014-04-26 16:08:06  [ main:1139 ] - [ DEBUG ]  connection.driver_class=com.mysql.jdbc.Driver
+  2014-04-26 16:08:06  [ main:1140 ] - [ DEBUG ]  connection.url=jdbc:mysql://localhost:3306/mobilestore?useUnicode=true&characterEncoding=utf-8
+  2014-04-26 16:08:06  [ main:1141 ] - [ DEBUG ]  connection.username=root
+  2014-04-26 16:08:06  [ main:1142 ] - [ DEBUG ]  connection.password=123456
+  2014-04-26 16:08:06  [ main:1143 ] - [ DEBUG ]  connection.pool_size=1
+  2014-04-26 16:08:06  [ main:1144 ] - [ DEBUG ]  dialect=org.hibernate.dialect.MySQLDialect
+  2014-04-26 16:08:06  [ main:1145 ] - [ DEBUG ]  current_session_context_class=thread
+  2014-04-26 16:08:06  [ main:1146 ] - [ DEBUG ]  cache.provider_class=org.hibernate.cache.NoCacheProvider
+  2014-04-26 16:08:06  [ main:1147 ] - [ DEBUG ]  show_sql=true
+  2014-04-26 16:08:06  [ main:1147 ] - [ DEBUG ]  format_sql=true
+  2014-04-26 16:08:06  [ main:1148 ] - [ DEBUG ]  hbm2ddl.auto=update
+  2014-04-26 16:08:06  [ main:1149 ] - [ DEBUG ]  Session-factory config [null] named class [com.model.type.MobileStore.model.Orders] for mapping
+  2014-04-26 16:08:06  [ main:1186 ] - [ DEBUG ]  Session-factory config [null] named class [com.model.type.MobileStore.model.User] for mapping
+  2014-04-26 16:08:06  [ main:1188 ] - [ DEBUG ]  Session-factory config [null] named class [com.model.type.MobileStore.model.Mobile] for mapping
+  2014-04-26 16:08:06  [ main:1190 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+  2014-04-26 16:08:06  [ main:1191 ] - [ DEBUG ]  Properties: {java.vendor=Sun Microsystems Inc., show_sql=true, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/mobilestore?useUnicode=true&characterEncoding=utf-8, sun.management.compiler=HotSpot Client Compiler, hbm2ddl.auto=update, os.name=Windows Vista, sun.boot.class.path=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\resources.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\sunrsasign.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jsse.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jce.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\charsets.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Sun Microsystems Inc., java.runtime.version=1.6.0_13-b03, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=fangleijiang, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=zh, sun.boot.library.path=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.6.0_13, user.timezone=Asia/Shanghai, sun.arch.data.model=32, java.endorsed.dirs=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\endorsed, sun.cpu.isalist=, sun.jnu.encoding=GBK, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=50.0, user.country=CN, connection.url=jdbc:mysql://localhost:3306/mobilestore?useUnicode=true&characterEncoding=utf-8, java.home=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=123456, java.vm.version=11.3-b02, hibernate.connection.password=123456, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.home=C:\Users\fangleijiang, java.specification.vendor=Sun Microsystems Inc., hibernate.hbm2ddl.auto=update, java.library.path=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:/myeclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;H:/myeclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;H:/myeclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/lib/i386;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files\Java\jdk1.8.0_05\jre\bin, java.vendor.url=http://java.sun.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Sun Microsystems Inc., hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.runtime.name=Java(TM) SE Runtime Environment, java.class.path=F:\web_project\MobileStore\target\test-classes;F:\web_project\MobileStore\target\classes;F:\apache-tomcat-7.0.53\lib\jsp-api.jar;F:\apache-tomcat-7.0.53\lib\servlet-api.jar;F:\web_project\MobileStore\src\main\webapp\ueditor\jsp\commons-fileupload-1.2.2.jar;F:\web_project\MobileStore\src\main\webapp\ueditor\jsp\ueditor.jar;F:\maven_download\junit\junit\4.10\junit-4.10.jar;F:\maven_download\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;F:\maven_download\org\apache\struts\struts2-core\2.3.1\struts2-core-2.3.1.jar;F:\maven_download\org\apache\struts\xwork\xwork-core\2.3.1\xwork-core-2.3.1.jar;F:\maven_download\asm\asm\3.3\asm-3.3.jar;F:\maven_download\asm\asm-commons\3.3\asm-commons-3.3.jar;F:\maven_download\asm\asm-tree\3.3\asm-tree-3.3.jar;F:\maven_download\org\freemarker\freemarker\2.3.18\freemarker-2.3.18.jar;F:\maven_download\ognl\ognl\3.0.3\ognl-3.0.3.jar;F:\maven_download\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar;F:\maven_download\commons-io\commons-io\2.0.1\commons-io-2.0.1.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\lib\tools.jar;F:\maven_download\org\apache\struts\struts2-spring-plugin\2.3.1\struts2-spring-plugin-2.3.1.jar;F:\maven_download\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;F:\maven_download\org\hibernate\hibernate-core\4.3.1.Final\hibernate-core-4.3.1.Final.jar;F:\maven_download\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;F:\maven_download\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;F:\maven_download\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;F:\maven_download\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;F:\maven_download\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;F:\maven_download\org\hibernate\common\hibernate-commons-annotations\4.0.4.Final\hibernate-commons-annotations-4.0.4.Final.jar;F:\maven_download\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;F:\maven_download\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;F:\maven_download\antlr\antlr\2.7.7\antlr-2.7.7.jar;F:\maven_download\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;F:\maven_download\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;F:\maven_download\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;F:\maven_download\log4j\log4j\1.2.16\log4j-1.2.16.jar;F:\maven_download\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;F:\maven_download\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;F:\maven_download\javassist\javassist\3.11.0.GA\javassist-3.11.0.GA.jar;F:\maven_download\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar;F:\maven_download\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;F:\maven_download\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar;F:\maven_download\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;F:\maven_download\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-orm\4.0.3.RELEASE\spring-orm-4.0.3.RELEASE.jar;F:\maven_download\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar;F:\maven_download\org\apache\struts\struts2-json-plugin\2.3.16\struts2-json-plugin-2.3.16.jar;F:\maven_download\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;F:\maven_download\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;F:\maven_download\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;F:\maven_download\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;F:\maven_download\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;/H:/myeclipse/MyEclipse 10/configuration/org.eclipse.osgi/bundles/705/1/.cp/;/H:/myeclipse/MyEclipse 10/configuration/org.eclipse.osgi/bundles/703/1/.cp/;/H:/myeclipse/MyEclipse 10/configuration/org.eclipse.osgi/bundles/704/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.0, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, connection.pool_size=1, java.io.tmpdir=C:\Users\FANGLE~1\AppData\Local\Temp\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, os.arch=x86, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=F:\web_project\MobileStore, line.separator=
+, java.vm.name=Java HotSpot(TM) Client VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=UTF-8, format_sql=true, java.specification.version=1.6, hibernate.show_sql=true, hibernate.connection.pool_size=1}
+  2014-04-26 16:08:06  [ main:1231 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  2014-04-26 16:08:07  [ main:1385 ] - [ DEBUG ]  Processing hbm.xml files
+  2014-04-26 16:08:07  [ main:1387 ] - [ DEBUG ]  Process annotated classes
+  2014-04-26 16:08:07  [ main:1400 ] - [ DEBUG ]  Binding entity from annotated class: com.model.type.MobileStore.model.Orders
+  2014-04-26 16:08:07  [ main:1513 ] - [ DEBUG ]  Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+  2014-04-26 16:08:07  [ main:1520 ] - [ DEBUG ]  No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+  2014-04-26 16:08:07  [ main:1547 ] - [ DEBUG ]  Import with entity name Orders
+  2014-04-26 16:08:07  [ main:1562 ] - [ DEBUG ]  Bind entity com.model.type.MobileStore.model.Orders on table t_orders
+  2014-04-26 16:08:07  [ main:1725 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=id, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1737 ] - [ DEBUG ]  MetadataSourceProcessor property id with lazy=false
+  2014-04-26 16:08:07  [ main:1743 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:id]
+  2014-04-26 16:08:07  [ main:1748 ] - [ DEBUG ]  building SimpleValue for id
+  2014-04-26 16:08:07  [ main:1762 ] - [ DEBUG ]  Building property id
+  2014-04-26 16:08:07  [ main:1782 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=invoice_Status, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1784 ] - [ DEBUG ]  MetadataSourceProcessor property invoice_Status with lazy=false
+  2014-04-26 16:08:07  [ main:1784 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:invoice_Status]
+  2014-04-26 16:08:07  [ main:1785 ] - [ DEBUG ]  building SimpleValue for invoice_Status
+  2014-04-26 16:08:07  [ main:1786 ] - [ DEBUG ]  Building property invoice_Status
+  2014-04-26 16:08:07  [ main:1787 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=invoice_number, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1788 ] - [ DEBUG ]  MetadataSourceProcessor property invoice_number with lazy=false
+  2014-04-26 16:08:07  [ main:1788 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:invoice_number]
+  2014-04-26 16:08:07  [ main:1789 ] - [ DEBUG ]  building SimpleValue for invoice_number
+  2014-04-26 16:08:07  [ main:1790 ] - [ DEBUG ]  Building property invoice_number
+  2014-04-26 16:08:07  [ main:1792 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='orders'}
+  2014-04-26 16:08:07  [ main:1793 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=list_mobile, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1799 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=null, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1840 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=element, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1843 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=list_mobile_KEY, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1847 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='list_mobile_KEY', referencedColumn='null', mappedBy='null'}
+  2014-04-26 16:08:07  [ main:1850 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='orders'}
+  2014-04-26 16:08:07  [ main:1851 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='orders'}
+  2014-04-26 16:08:07  [ main:1856 ] - [ DEBUG ]  Collection role: com.model.type.MobileStore.model.Orders.list_mobile
+  2014-04-26 16:08:07  [ main:1866 ] - [ DEBUG ]  Building property list_mobile
+  2014-04-26 16:08:07  [ main:1867 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=money, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1868 ] - [ DEBUG ]  MetadataSourceProcessor property money with lazy=false
+  2014-04-26 16:08:07  [ main:1869 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:money]
+  2014-04-26 16:08:07  [ main:1869 ] - [ DEBUG ]  building SimpleValue for money
+  2014-04-26 16:08:07  [ main:1870 ] - [ DEBUG ]  Building property money
+  2014-04-26 16:08:07  [ main:1871 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=order_number, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1872 ] - [ DEBUG ]  MetadataSourceProcessor property order_number with lazy=false
+  2014-04-26 16:08:07  [ main:1872 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:order_number]
+  2014-04-26 16:08:07  [ main:1873 ] - [ DEBUG ]  building SimpleValue for order_number
+  2014-04-26 16:08:07  [ main:1874 ] - [ DEBUG ]  Building property order_number
+  2014-04-26 16:08:07  [ main:1875 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=payment_time, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1904 ] - [ DEBUG ]  MetadataSourceProcessor property payment_time with lazy=false
+  2014-04-26 16:08:07  [ main:1905 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:payment_time]
+  2014-04-26 16:08:07  [ main:1906 ] - [ DEBUG ]  building SimpleValue for payment_time
+  2014-04-26 16:08:07  [ main:1907 ] - [ DEBUG ]  Building property payment_time
+  2014-04-26 16:08:07  [ main:1907 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=phonenumber, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1908 ] - [ DEBUG ]  MetadataSourceProcessor property phonenumber with lazy=false
+  2014-04-26 16:08:07  [ main:1909 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:phonenumber]
+  2014-04-26 16:08:07  [ main:1910 ] - [ DEBUG ]  building SimpleValue for phonenumber
+  2014-04-26 16:08:07  [ main:1910 ] - [ DEBUG ]  Building property phonenumber
+  2014-04-26 16:08:07  [ main:1911 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=product_quantity, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1912 ] - [ DEBUG ]  MetadataSourceProcessor property product_quantity with lazy=false
+  2014-04-26 16:08:07  [ main:1913 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:product_quantity]
+  2014-04-26 16:08:07  [ main:1913 ] - [ DEBUG ]  building SimpleValue for product_quantity
+  2014-04-26 16:08:07  [ main:1914 ] - [ DEBUG ]  Building property product_quantity
+  2014-04-26 16:08:07  [ main:1915 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=recipient_address, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:08:07  [ main:1915 ] - [ DEBUG ]  MetadataSourceProcessor property recipient_address with lazy=false
+  2014-04-26 16:08:07  [ main:1916 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:recipient_address]
+  2014-04-26 16:08:07  [ main:1985 ] - [ DEBUG ]  building SimpleValue for recipient_address
+  2014-04-26 16:08:07  [ main:1985 ] - [ DEBUG ]  Building property recipient_address
+  2014-04-26 16:08:07  [ main:1988 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=null, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:14  [ main:0 ] - [ DEBUG ]  Logging Provider: org.jboss.logging.Log4jLoggerProvider
+  2014-04-26 16:09:14  [ main:137 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@f8968f
+  2014-04-26 16:09:14  [ main:138 ] - [ DEBUG ]  Adding type registration boolean -> org.hibernate.type.BooleanType@f8968f
+  2014-04-26 16:09:14  [ main:139 ] - [ DEBUG ]  Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@f8968f
+  2014-04-26 16:09:14  [ main:148 ] - [ DEBUG ]  Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1835282
+  2014-04-26 16:09:14  [ main:153 ] - [ DEBUG ]  Adding type registration true_false -> org.hibernate.type.TrueFalseType@9f5011
+  2014-04-26 16:09:14  [ main:163 ] - [ DEBUG ]  Adding type registration yes_no -> org.hibernate.type.YesNoType@ef137d
+  2014-04-26 16:09:14  [ main:191 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@4c4975
+  2014-04-26 16:09:14  [ main:193 ] - [ DEBUG ]  Adding type registration byte -> org.hibernate.type.ByteType@4c4975
+  2014-04-26 16:09:14  [ main:195 ] - [ DEBUG ]  Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4c4975
+  2014-04-26 16:09:14  [ main:200 ] - [ DEBUG ]  Adding type registration character -> org.hibernate.type.CharacterType@1ec8909
+  2014-04-26 16:09:14  [ main:201 ] - [ DEBUG ]  Adding type registration char -> org.hibernate.type.CharacterType@1ec8909
+  2014-04-26 16:09:14  [ main:202 ] - [ DEBUG ]  Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1ec8909
+  2014-04-26 16:09:14  [ main:214 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@ecb281
+  2014-04-26 16:09:14  [ main:215 ] - [ DEBUG ]  Adding type registration short -> org.hibernate.type.ShortType@ecb281
+  2014-04-26 16:09:14  [ main:216 ] - [ DEBUG ]  Adding type registration java.lang.Short -> org.hibernate.type.ShortType@ecb281
+  2014-04-26 16:09:14  [ main:226 ] - [ DEBUG ]  Adding type registration integer -> org.hibernate.type.IntegerType@c05d3b
+  2014-04-26 16:09:14  [ main:228 ] - [ DEBUG ]  Adding type registration int -> org.hibernate.type.IntegerType@c05d3b
+  2014-04-26 16:09:14  [ main:230 ] - [ DEBUG ]  Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@c05d3b
+  2014-04-26 16:09:14  [ main:240 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@110003
+  2014-04-26 16:09:14  [ main:241 ] - [ DEBUG ]  Adding type registration long -> org.hibernate.type.LongType@110003
+  2014-04-26 16:09:14  [ main:242 ] - [ DEBUG ]  Adding type registration java.lang.Long -> org.hibernate.type.LongType@110003
+  2014-04-26 16:09:14  [ main:250 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@f39b3a
+  2014-04-26 16:09:14  [ main:251 ] - [ DEBUG ]  Adding type registration float -> org.hibernate.type.FloatType@f39b3a
+  2014-04-26 16:09:14  [ main:252 ] - [ DEBUG ]  Adding type registration java.lang.Float -> org.hibernate.type.FloatType@f39b3a
+  2014-04-26 16:09:14  [ main:262 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@12940b3
+  2014-04-26 16:09:14  [ main:263 ] - [ DEBUG ]  Adding type registration double -> org.hibernate.type.DoubleType@12940b3
+  2014-04-26 16:09:14  [ main:263 ] - [ DEBUG ]  Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@12940b3
+  2014-04-26 16:09:14  [ main:270 ] - [ DEBUG ]  Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1901437
+  2014-04-26 16:09:14  [ main:272 ] - [ DEBUG ]  Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1901437
+  2014-04-26 16:09:14  [ main:278 ] - [ DEBUG ]  Adding type registration big_integer -> org.hibernate.type.BigIntegerType@14a55f2
+  2014-04-26 16:09:14  [ main:279 ] - [ DEBUG ]  Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@14a55f2
+  2014-04-26 16:09:14  [ main:283 ] - [ DEBUG ]  Adding type registration string -> org.hibernate.type.StringType@19836ed
+  2014-04-26 16:09:14  [ main:284 ] - [ DEBUG ]  Adding type registration java.lang.String -> org.hibernate.type.StringType@19836ed
+  2014-04-26 16:09:14  [ main:287 ] - [ DEBUG ]  Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1afae45
+  2014-04-26 16:09:14  [ main:292 ] - [ DEBUG ]  Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@d9660d
+  2014-04-26 16:09:14  [ main:296 ] - [ DEBUG ]  Adding type registration url -> org.hibernate.type.UrlType@64883c
+  2014-04-26 16:09:14  [ main:297 ] - [ DEBUG ]  Adding type registration java.net.URL -> org.hibernate.type.UrlType@64883c
+  2014-04-26 16:09:14  [ main:304 ] - [ DEBUG ]  Adding type registration date -> org.hibernate.type.DateType@8c436b
+  2014-04-26 16:09:14  [ main:305 ] - [ DEBUG ]  Adding type registration java.sql.Date -> org.hibernate.type.DateType@8c436b
+  2014-04-26 16:09:14  [ main:312 ] - [ DEBUG ]  Adding type registration time -> org.hibernate.type.TimeType@1aa9f99
+  2014-04-26 16:09:14  [ main:314 ] - [ DEBUG ]  Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1aa9f99
+  2014-04-26 16:09:14  [ main:320 ] - [ DEBUG ]  Adding type registration timestamp -> org.hibernate.type.TimestampType@60e128
+  2014-04-26 16:09:14  [ main:321 ] - [ DEBUG ]  Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@60e128
+  2014-04-26 16:09:14  [ main:322 ] - [ DEBUG ]  Adding type registration java.util.Date -> org.hibernate.type.TimestampType@60e128
+  2014-04-26 16:09:14  [ main:327 ] - [ DEBUG ]  Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@16dadf9
+  2014-04-26 16:09:14  [ main:332 ] - [ DEBUG ]  Adding type registration calendar -> org.hibernate.type.CalendarType@4aa0ce
+  2014-04-26 16:09:14  [ main:333 ] - [ DEBUG ]  Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4aa0ce
+  2014-04-26 16:09:14  [ main:334 ] - [ DEBUG ]  Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4aa0ce
+  2014-04-26 16:09:14  [ main:339 ] - [ DEBUG ]  Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@1e3cd51
+  2014-04-26 16:09:14  [ main:343 ] - [ DEBUG ]  Adding type registration locale -> org.hibernate.type.LocaleType@145f0e3
+  2014-04-26 16:09:14  [ main:344 ] - [ DEBUG ]  Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@145f0e3
+  2014-04-26 16:09:14  [ main:348 ] - [ DEBUG ]  Adding type registration currency -> org.hibernate.type.CurrencyType@170bea5
+  2014-04-26 16:09:14  [ main:350 ] - [ DEBUG ]  Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@170bea5
+  2014-04-26 16:09:14  [ main:354 ] - [ DEBUG ]  Adding type registration timezone -> org.hibernate.type.TimeZoneType@1de17f4
+  2014-04-26 16:09:14  [ main:355 ] - [ DEBUG ]  Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@1de17f4
+  2014-04-26 16:09:14  [ main:358 ] - [ DEBUG ]  Adding type registration class -> org.hibernate.type.ClassType@f47bf5
+  2014-04-26 16:09:14  [ main:359 ] - [ DEBUG ]  Adding type registration java.lang.Class -> org.hibernate.type.ClassType@f47bf5
+  2014-04-26 16:09:14  [ main:372 ] - [ DEBUG ]  Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1632847
+  2014-04-26 16:09:14  [ main:373 ] - [ DEBUG ]  Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1632847
+  2014-04-26 16:09:14  [ main:375 ] - [ DEBUG ]  Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@29e357
+  2014-04-26 16:09:14  [ main:380 ] - [ DEBUG ]  Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@142bece
+  2014-04-26 16:09:14  [ main:384 ] - [ DEBUG ]  Adding type registration binary -> org.hibernate.type.BinaryType@1fc6e42
+  2014-04-26 16:09:14  [ main:385 ] - [ DEBUG ]  Adding type registration byte[] -> org.hibernate.type.BinaryType@1fc6e42
+  2014-04-26 16:09:14  [ main:386 ] - [ DEBUG ]  Adding type registration [B -> org.hibernate.type.BinaryType@1fc6e42
+  2014-04-26 16:09:14  [ main:389 ] - [ DEBUG ]  Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1f297e7
+  2014-04-26 16:09:14  [ main:390 ] - [ DEBUG ]  Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1f297e7
+  2014-04-26 16:09:14  [ main:391 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1f297e7
+  2014-04-26 16:09:14  [ main:395 ] - [ DEBUG ]  Adding type registration image -> org.hibernate.type.ImageType@175078b
+  2014-04-26 16:09:14  [ main:400 ] - [ DEBUG ]  Adding type registration characters -> org.hibernate.type.CharArrayType@11a75a2
+  2014-04-26 16:09:14  [ main:401 ] - [ DEBUG ]  Adding type registration char[] -> org.hibernate.type.CharArrayType@11a75a2
+  2014-04-26 16:09:14  [ main:401 ] - [ DEBUG ]  Adding type registration [C -> org.hibernate.type.CharArrayType@11a75a2
+  2014-04-26 16:09:14  [ main:405 ] - [ DEBUG ]  Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1581593
+  2014-04-26 16:09:14  [ main:406 ] - [ DEBUG ]  Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1581593
+  2014-04-26 16:09:14  [ main:407 ] - [ DEBUG ]  Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1581593
+  2014-04-26 16:09:14  [ main:410 ] - [ DEBUG ]  Adding type registration text -> org.hibernate.type.TextType@1d62270
+  2014-04-26 16:09:14  [ main:414 ] - [ DEBUG ]  Adding type registration ntext -> org.hibernate.type.NTextType@1fe1feb
+  2014-04-26 16:09:14  [ main:432 ] - [ DEBUG ]  Adding type registration blob -> org.hibernate.type.BlobType@102799c
+  2014-04-26 16:09:14  [ main:433 ] - [ DEBUG ]  Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@102799c
+  2014-04-26 16:09:14  [ main:435 ] - [ DEBUG ]  Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7109c4
+  2014-04-26 16:09:14  [ main:451 ] - [ DEBUG ]  Adding type registration clob -> org.hibernate.type.ClobType@1acd47
+  2014-04-26 16:09:14  [ main:453 ] - [ DEBUG ]  Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1acd47
+  2014-04-26 16:09:14  [ main:468 ] - [ DEBUG ]  Adding type registration nclob -> org.hibernate.type.NClobType@1359c1b
+  2014-04-26 16:09:14  [ main:469 ] - [ DEBUG ]  Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1359c1b
+  2014-04-26 16:09:14  [ main:470 ] - [ DEBUG ]  Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@18235ed
+  2014-04-26 16:09:14  [ main:472 ] - [ DEBUG ]  Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5fcf29
+  2014-04-26 16:09:14  [ main:476 ] - [ DEBUG ]  Adding type registration serializable -> org.hibernate.type.SerializableType@9cb0f4
+  2014-04-26 16:09:14  [ main:486 ] - [ DEBUG ]  Adding type registration object -> org.hibernate.type.ObjectType@2acc65
+  2014-04-26 16:09:14  [ main:487 ] - [ DEBUG ]  Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2acc65
+  2014-04-26 16:09:14  [ main:489 ] - [ DEBUG ]  Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@ff2413
+  2014-04-26 16:09:14  [ main:489 ] - [ DEBUG ]  Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@9980d5
+  2014-04-26 16:09:14  [ main:490 ] - [ DEBUG ]  Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1d95492
+  2014-04-26 16:09:14  [ main:491 ] - [ DEBUG ]  Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@13f7281
+  2014-04-26 16:09:14  [ main:492 ] - [ DEBUG ]  Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@76ab2f
+  2014-04-26 16:09:14  [ main:492 ] - [ DEBUG ]  Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@e0cc23
+  2014-04-26 16:09:14  [ main:493 ] - [ DEBUG ]  Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7a1576
+  2014-04-26 16:09:14  [ main:497 ] - [ DEBUG ]  Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1f78040
+  2014-04-26 16:09:15  [ main:572 ] - [ INFO ]  HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+  2014-04-26 16:09:15  [ main:602 ] - [ INFO ]  HHH000412: Hibernate Core {4.3.1.Final}
+  2014-04-26 16:09:15  [ main:611 ] - [ INFO ]  HHH000206: hibernate.properties not found
+  2014-04-26 16:09:15  [ main:617 ] - [ INFO ]  HHH000021: Bytecode provider name : javassist
+  2014-04-26 16:09:15  [ main:665 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+  2014-04-26 16:09:15  [ main:667 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+  2014-04-26 16:09:15  [ main:669 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+  2014-04-26 16:09:15  [ main:670 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+  2014-04-26 16:09:15  [ main:674 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+  2014-04-26 16:09:15  [ main:678 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+  2014-04-26 16:09:15  [ main:682 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+  2014-04-26 16:09:15  [ main:684 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+  2014-04-26 16:09:15  [ main:686 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+  2014-04-26 16:09:15  [ main:688 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+  2014-04-26 16:09:15  [ main:690 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+  2014-04-26 16:09:15  [ main:692 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+  2014-04-26 16:09:15  [ main:695 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+  2014-04-26 16:09:15  [ main:697 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+  2014-04-26 16:09:15  [ main:704 ] - [ DEBUG ]  Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+  2014-04-26 16:09:15  [ main:711 ] - [ INFO ]  HHH000043: Configuring from resource: /hibernate.cfg.xml
+  2014-04-26 16:09:15  [ main:712 ] - [ INFO ]  HHH000040: Configuration resource: /hibernate.cfg.xml
+  2014-04-26 16:09:15  [ main:856 ] - [ DEBUG ]  Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+  2014-04-26 16:09:15  [ main:857 ] - [ WARN ]  HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+  2014-04-26 16:09:15  [ main:858 ] - [ DEBUG ]  Attempting to resolve on classpath under org/hibernate/
+  2014-04-26 16:09:15  [ main:860 ] - [ DEBUG ]  Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+  2014-04-26 16:09:15  [ main:923 ] - [ DEBUG ]  connection.driver_class=com.mysql.jdbc.Driver
+  2014-04-26 16:09:15  [ main:924 ] - [ DEBUG ]  connection.url=jdbc:mysql://localhost:3306/mobilestore?useUnicode=true&characterEncoding=utf-8
+  2014-04-26 16:09:15  [ main:925 ] - [ DEBUG ]  connection.username=root
+  2014-04-26 16:09:15  [ main:926 ] - [ DEBUG ]  connection.password=123456
+  2014-04-26 16:09:15  [ main:927 ] - [ DEBUG ]  connection.pool_size=1
+  2014-04-26 16:09:15  [ main:929 ] - [ DEBUG ]  dialect=org.hibernate.dialect.MySQLDialect
+  2014-04-26 16:09:15  [ main:930 ] - [ DEBUG ]  current_session_context_class=thread
+  2014-04-26 16:09:15  [ main:930 ] - [ DEBUG ]  cache.provider_class=org.hibernate.cache.NoCacheProvider
+  2014-04-26 16:09:15  [ main:931 ] - [ DEBUG ]  show_sql=true
+  2014-04-26 16:09:15  [ main:932 ] - [ DEBUG ]  format_sql=true
+  2014-04-26 16:09:15  [ main:932 ] - [ DEBUG ]  hbm2ddl.auto=update
+  2014-04-26 16:09:15  [ main:933 ] - [ DEBUG ]  Session-factory config [null] named class [com.model.type.MobileStore.model.Orders] for mapping
+  2014-04-26 16:09:15  [ main:967 ] - [ DEBUG ]  Session-factory config [null] named class [com.model.type.MobileStore.model.User] for mapping
+  2014-04-26 16:09:15  [ main:969 ] - [ DEBUG ]  Session-factory config [null] named class [com.model.type.MobileStore.model.Mobile] for mapping
+  2014-04-26 16:09:15  [ main:971 ] - [ INFO ]  HHH000041: Configured SessionFactory: null
+  2014-04-26 16:09:15  [ main:972 ] - [ DEBUG ]  Properties: {java.vendor=Sun Microsystems Inc., show_sql=true, sun.java.launcher=SUN_STANDARD, hibernate.connection.url=jdbc:mysql://localhost:3306/mobilestore?useUnicode=true&characterEncoding=utf-8, sun.management.compiler=HotSpot Client Compiler, hbm2ddl.auto=update, os.name=Windows Vista, sun.boot.class.path=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\resources.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\rt.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\sunrsasign.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jsse.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\jce.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\charsets.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\classes, hibernate.current_session_context_class=thread, sun.desktop=windows, java.vm.specification.vendor=Sun Microsystems Inc., java.runtime.version=1.6.0_13-b03, hibernate.cache.provider_class=org.hibernate.cache.NoCacheProvider, user.name=fangleijiang, connection.driver_class=com.mysql.jdbc.Driver, current_session_context_class=thread, user.language=zh, sun.boot.library.path=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\bin, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.6.0_13, user.timezone=Asia/Shanghai, sun.arch.data.model=32, java.endorsed.dirs=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\endorsed, sun.cpu.isalist=, sun.jnu.encoding=GBK, file.encoding.pkg=sun.io, file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=50.0, user.country=CN, connection.url=jdbc:mysql://localhost:3306/mobilestore?useUnicode=true&characterEncoding=utf-8, java.home=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre, java.vm.info=mixed mode, os.version=6.1, path.separator=;, connection.password=123456, java.vm.version=11.3-b02, hibernate.connection.password=123456, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, user.home=C:\Users\fangleijiang, java.specification.vendor=Sun Microsystems Inc., hibernate.hbm2ddl.auto=update, java.library.path=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;H:/myeclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin/client;H:/myeclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/bin;H:/myeclipse/Common/binary/com.sun.java.jdk.win32.x86_1.6.0.013/jre/lib/i386;C:\Program Files\Java\jdk1.8.0_05\bin;C:\Program Files\Java\jdk1.8.0_05\jre\bin, java.vendor.url=http://java.sun.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, java.vm.vendor=Sun Microsystems Inc., hibernate.dialect=org.hibernate.dialect.MySQLDialect, java.runtime.name=Java(TM) SE Runtime Environment, java.class.path=F:\web_project\MobileStore\target\test-classes;F:\web_project\MobileStore\target\classes;F:\apache-tomcat-7.0.53\lib\jsp-api.jar;F:\apache-tomcat-7.0.53\lib\servlet-api.jar;F:\web_project\MobileStore\src\main\webapp\ueditor\jsp\commons-fileupload-1.2.2.jar;F:\web_project\MobileStore\src\main\webapp\ueditor\jsp\ueditor.jar;F:\maven_download\junit\junit\4.10\junit-4.10.jar;F:\maven_download\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;F:\maven_download\org\apache\struts\struts2-core\2.3.1\struts2-core-2.3.1.jar;F:\maven_download\org\apache\struts\xwork\xwork-core\2.3.1\xwork-core-2.3.1.jar;F:\maven_download\asm\asm\3.3\asm-3.3.jar;F:\maven_download\asm\asm-commons\3.3\asm-commons-3.3.jar;F:\maven_download\asm\asm-tree\3.3\asm-tree-3.3.jar;F:\maven_download\org\freemarker\freemarker\2.3.18\freemarker-2.3.18.jar;F:\maven_download\ognl\ognl\3.0.3\ognl-3.0.3.jar;F:\maven_download\commons-fileupload\commons-fileupload\1.2.2\commons-fileupload-1.2.2.jar;F:\maven_download\commons-io\commons-io\2.0.1\commons-io-2.0.1.jar;H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\lib\tools.jar;F:\maven_download\org\apache\struts\struts2-spring-plugin\2.3.1\struts2-spring-plugin-2.3.1.jar;F:\maven_download\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;F:\maven_download\org\hibernate\hibernate-core\4.3.1.Final\hibernate-core-4.3.1.Final.jar;F:\maven_download\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;F:\maven_download\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;F:\maven_download\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;F:\maven_download\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;F:\maven_download\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;F:\maven_download\org\hibernate\common\hibernate-commons-annotations\4.0.4.Final\hibernate-commons-annotations-4.0.4.Final.jar;F:\maven_download\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;F:\maven_download\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;F:\maven_download\antlr\antlr\2.7.7\antlr-2.7.7.jar;F:\maven_download\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;F:\maven_download\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;F:\maven_download\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;F:\maven_download\log4j\log4j\1.2.16\log4j-1.2.16.jar;F:\maven_download\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;F:\maven_download\org\slf4j\slf4j-log4j12\1.6.1\slf4j-log4j12-1.6.1.jar;F:\maven_download\javassist\javassist\3.11.0.GA\javassist-3.11.0.GA.jar;F:\maven_download\org\springframework\spring-core\4.0.3.RELEASE\spring-core-4.0.3.RELEASE.jar;F:\maven_download\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;F:\maven_download\org\springframework\spring-context\4.0.3.RELEASE\spring-context-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-aop\4.0.3.RELEASE\spring-aop-4.0.3.RELEASE.jar;F:\maven_download\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;F:\maven_download\org\springframework\spring-expression\4.0.3.RELEASE\spring-expression-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-beans\4.0.3.RELEASE\spring-beans-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-web\4.0.3.RELEASE\spring-web-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-jdbc\4.0.3.RELEASE\spring-jdbc-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-tx\4.0.3.RELEASE\spring-tx-4.0.3.RELEASE.jar;F:\maven_download\org\springframework\spring-orm\4.0.3.RELEASE\spring-orm-4.0.3.RELEASE.jar;F:\maven_download\mysql\mysql-connector-java\5.1.29\mysql-connector-java-5.1.29.jar;F:\maven_download\org\apache\struts\struts2-json-plugin\2.3.16\struts2-json-plugin-2.3.16.jar;F:\maven_download\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;F:\maven_download\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;F:\maven_download\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;F:\maven_download\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;F:\maven_download\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;/H:/myeclipse/MyEclipse 10/configuration/org.eclipse.osgi/bundles/705/1/.cp/;/H:/myeclipse/MyEclipse 10/configuration/org.eclipse.osgi/bundles/703/1/.cp/;/H:/myeclipse/MyEclipse 10/configuration/org.eclipse.osgi/bundles/704/1/.cp/, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.0, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, connection.pool_size=1, java.io.tmpdir=C:\Users\FANGLE~1\AppData\Local\Temp\, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, os.arch=x86, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=H:\myeclipse\Common\binary\com.sun.java.jdk.win32.x86_1.6.0.013\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, user.dir=F:\web_project\MobileStore, line.separator=
+, java.vm.name=Java HotSpot(TM) Client VM, cache.provider_class=org.hibernate.cache.NoCacheProvider, file.encoding=UTF-8, format_sql=true, java.specification.version=1.6, hibernate.show_sql=true, hibernate.connection.pool_size=1}
+  2014-04-26 16:09:15  [ main:1012 ] - [ INFO ]  HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+  2014-04-26 16:09:15  [ main:1165 ] - [ DEBUG ]  Processing hbm.xml files
+  2014-04-26 16:09:15  [ main:1166 ] - [ DEBUG ]  Process annotated classes
+  2014-04-26 16:09:15  [ main:1179 ] - [ DEBUG ]  Binding entity from annotated class: com.model.type.MobileStore.model.Orders
+  2014-04-26 16:09:15  [ main:1260 ] - [ DEBUG ]  Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+  2014-04-26 16:09:15  [ main:1266 ] - [ DEBUG ]  No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+  2014-04-26 16:09:15  [ main:1296 ] - [ DEBUG ]  Import with entity name Orders
+  2014-04-26 16:09:15  [ main:1307 ] - [ DEBUG ]  Bind entity com.model.type.MobileStore.model.Orders on table t_orders
+  2014-04-26 16:09:15  [ main:1438 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=id, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:15  [ main:1450 ] - [ DEBUG ]  MetadataSourceProcessor property id with lazy=false
+  2014-04-26 16:09:15  [ main:1455 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:id]
+  2014-04-26 16:09:15  [ main:1460 ] - [ DEBUG ]  building SimpleValue for id
+  2014-04-26 16:09:15  [ main:1465 ] - [ DEBUG ]  Building property id
+  2014-04-26 16:09:15  [ main:1480 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=invoice_Status, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:15  [ main:1481 ] - [ DEBUG ]  MetadataSourceProcessor property invoice_Status with lazy=false
+  2014-04-26 16:09:15  [ main:1482 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:invoice_Status]
+  2014-04-26 16:09:15  [ main:1482 ] - [ DEBUG ]  building SimpleValue for invoice_Status
+  2014-04-26 16:09:15  [ main:1483 ] - [ DEBUG ]  Building property invoice_Status
+  2014-04-26 16:09:15  [ main:1484 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=invoice_number, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:15  [ main:1485 ] - [ DEBUG ]  MetadataSourceProcessor property invoice_number with lazy=false
+  2014-04-26 16:09:15  [ main:1486 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:invoice_number]
+  2014-04-26 16:09:15  [ main:1486 ] - [ DEBUG ]  building SimpleValue for invoice_number
+  2014-04-26 16:09:15  [ main:1487 ] - [ DEBUG ]  Building property invoice_number
+  2014-04-26 16:09:15  [ main:1489 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='orders'}
+  2014-04-26 16:09:15  [ main:1490 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=list_mobile, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:15  [ main:1494 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=null, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:15  [ main:1529 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=element, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:15  [ main:1531 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=list_mobile_KEY, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:16  [ main:1534 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='list_mobile_KEY', referencedColumn='null', mappedBy='null'}
+  2014-04-26 16:09:16  [ main:1538 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='orders'}
+  2014-04-26 16:09:16  [ main:1538 ] - [ DEBUG ]  Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='orders'}
+  2014-04-26 16:09:16  [ main:1540 ] - [ DEBUG ]  Collection role: com.model.type.MobileStore.model.Orders.list_mobile
+  2014-04-26 16:09:16  [ main:1552 ] - [ DEBUG ]  Building property list_mobile
+  2014-04-26 16:09:16  [ main:1553 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=money, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:16  [ main:1554 ] - [ DEBUG ]  MetadataSourceProcessor property money with lazy=false
+  2014-04-26 16:09:16  [ main:1554 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:money]
+  2014-04-26 16:09:16  [ main:1555 ] - [ DEBUG ]  building SimpleValue for money
+  2014-04-26 16:09:16  [ main:1555 ] - [ DEBUG ]  Building property money
+  2014-04-26 16:09:16  [ main:1556 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=order_number, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:16  [ main:1557 ] - [ DEBUG ]  MetadataSourceProcessor property order_number with lazy=false
+  2014-04-26 16:09:16  [ main:1558 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:order_number]
+  2014-04-26 16:09:16  [ main:1559 ] - [ DEBUG ]  building SimpleValue for order_number
+  2014-04-26 16:09:16  [ main:1560 ] - [ DEBUG ]  Building property order_number
+  2014-04-26 16:09:16  [ main:1561 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=payment_time, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:16  [ main:1563 ] - [ DEBUG ]  MetadataSourceProcessor property payment_time with lazy=false
+  2014-04-26 16:09:16  [ main:1564 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:payment_time]
+  2014-04-26 16:09:16  [ main:1565 ] - [ DEBUG ]  building SimpleValue for payment_time
+  2014-04-26 16:09:16  [ main:1565 ] - [ DEBUG ]  Building property payment_time
+  2014-04-26 16:09:16  [ main:1566 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=phonenumber, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:16  [ main:1567 ] - [ DEBUG ]  MetadataSourceProcessor property phonenumber with lazy=false
+  2014-04-26 16:09:16  [ main:1567 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:phonenumber]
+  2014-04-26 16:09:16  [ main:1568 ] - [ DEBUG ]  building SimpleValue for phonenumber
+  2014-04-26 16:09:16  [ main:1568 ] - [ DEBUG ]  Building property phonenumber
+  2014-04-26 16:09:16  [ main:1569 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=product_quantity, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:16  [ main:1570 ] - [ DEBUG ]  MetadataSourceProcessor property product_quantity with lazy=false
+  2014-04-26 16:09:16  [ main:1571 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:product_quantity]
+  2014-04-26 16:09:16  [ main:1571 ] - [ DEBUG ]  building SimpleValue for product_quantity
+  2014-04-26 16:09:16  [ main:1572 ] - [ DEBUG ]  Building property product_quantity
+  2014-04-26 16:09:16  [ main:1573 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=recipient_address, insertable=true, updatable=true, unique=false}
+  2014-04-26 16:09:16  [ main:1573 ] - [ DEBUG ]  MetadataSourceProcessor property recipient_address with lazy=false
+  2014-04-26 16:09:16  [ main:1574 ] - [ DEBUG ]  Attempting to locate auto-apply AttributeConverter for property [com.model.type.MobileStore.model.Orders:recipient_address]
+  2014-04-26 16:09:16  [ main:1574 ] - [ DEBUG ]  building SimpleValue for recipient_address
+  2014-04-26 16:09:16  [ main:1575 ] - [ DEBUG ]  Building property recipient_address
+  2014-04-26 16:09:16  [ main:1576 ] - [ DEBUG ]  Binding column: Ejb3Column{table=org.hibernate.mapping.Table(t_orders), mappingColumn=null, insertable=true, updatable=true, unique=false}
+  

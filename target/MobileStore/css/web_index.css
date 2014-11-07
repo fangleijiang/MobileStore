@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.row-fluid1 {
+	margin-left: 10%;
+	width: 80%;
+	height: 200px;
+	margin-top: 41px;
+	background-color: red;
+}
+
+.navbar-inner {
+	font-size: 9px;
+}
+
+.carousel-inner {
+	height: 300px;
+	margin-top: 40px;
+	background-color: red;
+}
+
+.row-fluid {
+	margin-top: 40px;
+	margin-left: 9%;
+	width: 86%;
+}
+
+.row-fluid .span2 {
+	height: 300px;
+	width: 17.3%;
+	float: left;
+}
+
+.row-fluid .span10 {
+	height: 300px;
+	margin-left: 0;
+	width: 80%;
+	float: left;
+}
+
+.nav2 .navbar-inner {
+	margin-top: 3px;
+	margin-left: 10.2%;
+	width: 1045px;
+}
+
+.center_body {
+	margin-top: -18px;
+	margin-left: 10.2%;
+	width: 80.5%;
+	/* background-color: red; */
+/* 	border: 1px solid red; */
+}
+
+.center_body .span_left {
+	width: 17.6%;
+	border: 1px solid #a1a1a1;
+	margin-left: 0px;
+/* 	height:500px; */
+	float: left;
+	margin-bottom: 60px;
+}
+
+.center_body .span_right { /* border:1px solid #a1a1a1; */
+	width: 82%;
+	/* background-color: blue; */
+	margin-left: 1px;
+	height: 500px;
+	float: left;
+}
+
+.center_body .panel-heading {
+	text-align: center;
+	border: 1px solid #a1a1a1;
+	padding: 10px 40px;
+	background: #dddddd;
+	width: 108px;
+	font-family: 黑体;
+	font-weight: bold;
+	border-radius: 0px;
+	-moz-border-radius: 25px; /* 老的 Firefox */
+}
+
+.center_body .panel-body {
+	text-align: center;
+	border: 1px solid #a1a1a1;
+	padding: 10px 40px;
+	/* background:#dddddd; */
+	width: 108px;
+	height: 200px;
+	font-family: 黑体;
+	font-weight: bold;
+	border-radius: 25px;
+	-moz-border-radius: 25px; /* 老的 Firefox */
+}
+
+.span_right .top {
+	font-family: 黑体;
+	font-weight: bolder;
+	border: 1px solid #a1a1a1;
+	padding: 2px;
+	/* background:#dddddd; */
+	width: 886px;
+	height: 200px;
+	font-family: 黑体;
+}
+
+.span_right .span_content {
+	font-family: 黑体;
+	font-weight: bolder;
+	border: 1px solid #a1a1a1;
+	padding: 2px;
+	margin-left: 0px;
+	/* background:#dddddd; */
+	width: 886px;
+	/* height:200px; */
+	font-family: 黑体;
+	margin-bottom: 60px;
+}
+
+.span_content .top {
+	font-family: 黑体;
+	border: 1px solid #a1a1a1;
+	margin-left: -2px;
+	width: 885px;
+	height: 30px;
+	font-family: 黑体;
+}
+
+.one_mobile {
+	text-align: center;
+	margin-left: 54px;
+	margin-top: 20px;
+	float: left
+}
+.new_mobile{
+	text-align: center;
+	margin-left: 20px;
+	margin-top: 15px;
+	float: left
+	
+}
+
